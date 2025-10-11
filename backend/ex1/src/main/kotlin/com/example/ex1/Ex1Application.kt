@@ -1,18 +1,11 @@
-package com.example.ex0
+package com.example.ex1
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class Ex0Application
-{
-
-    var name:String = "안녕"
-    fun run(){
-        print(name)
-    }
-}
+class Ex1Application
 
 fun main(args: Array<String>) {
-	runApplication<Ex0Application>(*args)
+    runApplication<Ex1Application>(*args)
 }
